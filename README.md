@@ -1,6 +1,6 @@
 # AI Video and Image Generation System Assignment  
 
-Welcome to the **AI Video and Image Generation System Assignment**! This project is designed to assess your programming skills, creativity, problem-solving abilities, and ability to work with AI tools. Your task is to create a Python-based system that takes a user-provided text prompt, generates videos and images based on the text, and stores them for user access. The system should also notify the user when the generated content is ready.
+Welcome to the **AI Video and Image Generation System Assignment**! This project is designed to assess your programming skills, creativity, problem-solving abilities, and ability to work with AI tools. Your task is to create a Python-based system that takes a user-provided text prompt, generates motivational videos and images based on the text, and stores them for user access. The system should also notify the user when the generated content is ready.
 
 ---
 
@@ -119,4 +119,4 @@ You will be notified within 24 hours if your assignment is shortlisted.
 ---
 
 **Good Luck!**  
-We look forward to reviewing your submission. If you have any questions, don’t hesitate to reach out!  
+We look forward to reviewing your submission. If you have any questions, don’t hesitate to reach out!  [Telegram](https://t.me/+Vqb1TfmNrQBhZTE1)
