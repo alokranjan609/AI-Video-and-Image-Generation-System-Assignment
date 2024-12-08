@@ -1,6 +1,5 @@
 # Create a README.md file with the provided content
 
-readme_content = """
 # Image Generation App
 
 This is a Flask-based web application that allows users to generate AI-driven images based on text prompts. Users can log in, register, and view their generated images. The app uses the **Diffusers library** for image generation and provides a responsive interface with a real-time loading spinner while images are being processed.
@@ -46,7 +45,8 @@ This is a Flask-based web application that allows users to generate AI-driven im
    git clone https://github.com/<your-username>/<your-repository>.git
    cd <your-repository>
    ```
-2. **Run the python Application"
+2. **Run the python Application**
    ```bash
    python app.py
-   ```
+   ``` 
+ 3. **Check http://localhost:5000/ in your preferred browser**  
