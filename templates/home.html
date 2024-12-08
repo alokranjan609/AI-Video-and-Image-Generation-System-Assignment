@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="home-page">
+        <h1>Welcome to the Image Generation App</h1>
+        <p>Experience the power of AI-driven image generation. Simply provide a prompt, and let the AI do the rest!</p>
+
+        <!-- Login and Register Buttons -->
+        <div class="button-container">
+            <a href="{{ url_for('login') }}" class="btn">Login</a>
+            <a href="{{ url_for('register') }}" class="btn btn-alt">Register</a>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="section">
+        <h2>How It Works</h2>
+        <p>Our AI system uses a custom-trained model to generate images based on the text prompt you provide. Simply describe what you want, and watch the magic happen!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Welcome, {{ username }}!</h1>
+        <a href="{{ url_for('generate_video') }}" class="btn">Generate a New Image</a>
+        <div class="generated-outputs">
+            {% for content in generated_contents %}
+            <div class="generated-output">
+                {% if content.image_paths %}
+                <img src="{{ url_for('static', filename=content.image_paths.split('/')[-1]) }}" alt="Generated Image">
+                {% else %}
+                <p>No image available</p>
+                {% endif %}
+                <p><strong>Prompt:</strong> {{ content.prompt }}</p>
+                <p><strong>Status:</strong> {{ content.status }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+</body>
+</html>
+
